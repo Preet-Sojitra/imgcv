@@ -1,6 +1,12 @@
 # imgcv
 
-Image Processing Library
+Image Processing Library from scratch using Python.
+
+> NOTE: This library is just a fun project to learn about image processing and computer vision algorithms from scratch and to enhance my understanding of the concepts. 
+
+---
+Various implemenatations of image processing algorithms from scratch using Python has been implemented in [this repository](https://github.com/Preet-Sojitra/DIP) as part of Digital Image Processing course at my university.
+
 
 ## Installation
 
@@ -10,7 +16,25 @@ $ pip install imgcv
 
 ## Usage
 
-- TODO
+```python
+from PIL import Image
+from imgcv.transformation.negative import negative_transform
+
+# Load image
+img = Image.open('path/to/image.jpg')
+
+# Convert image to numpy array
+img = np.array(img)
+
+# Apply logarithmic transformation
+img = logarithmic_transform(img, c=3)
+
+# Convert numpy array to image
+img = Image.fromarray(img)
+
+# show image
+img.show()
+```
 
 ## Contributing
 
