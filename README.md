@@ -2,6 +2,10 @@
 
 Image Processing Library from scratch using Python.
 
+[![Documentation Status](https://readthedocs.org/projects/imgcv/badge/?version=latest)](https://imgcv.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/imgcv.svg)](https://badge.fury.io/py/imgcv)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 > NOTE: This library is just a fun project to learn about image processing and computer vision algorithms from scratch and to enhance my understanding of the concepts. 
 
 ---
