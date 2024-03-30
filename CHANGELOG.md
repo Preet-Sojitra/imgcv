@@ -2,6 +2,21 @@
 
 
 
+## v0.3.1 (2024-03-30)
+
+### Documentation
+
+* docs: update README.md
+
+Add badges to README.md ([`dd9944e`](https://github.com/Preet-Sojitra/imgcv/commit/dd9944ef545fbf02b20362c9c2eb4cffeac3f854))
+
+### Fix
+
+* fix(build): update pyproject
+
+add build instructions for python semantic release in pyproject.toml ([`d79d3b5`](https://github.com/Preet-Sojitra/imgcv/commit/d79d3b54c90943f823539e8fbd74b3906e029d05))
+
+
 ## v0.3.0 (2024-03-30)
 
 ### Feature
