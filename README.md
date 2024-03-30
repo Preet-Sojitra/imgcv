@@ -3,7 +3,8 @@
 Image Processing Library from scratch using Python.
 
 [![Documentation Status](https://readthedocs.org/projects/imgcv/badge/?version=latest)](https://imgcv.readthedocs.io/en/latest/?badge=latest)
-[![PyPI version](https://badge.fury.io/py/imgcv.svg)](https://badge.fury.io/py/imgcv)
+[![PyPI version](https://img.shields.io/pypi/v/imgcv)](https://pypi.org/project/imgcv/)
+![GitHub Workflow Status](https://github.com/Preet-Sojitra/imgcv/actions/workflows/ci-cd.yml/badge.svg)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 > NOTE: This library is just a fun project to learn about image processing and computer vision algorithms from scratch and to enhance my understanding of the concepts. 
@@ -31,7 +32,7 @@ img = Image.open('path/to/image.jpg')
 img = np.array(img)
 
 # Apply logarithmic transformation
-img = logarithmic_transform(img, c=3)
+img = negative_transform(img)
 
 # Convert numpy array to image
 img = Image.fromarray(img)
