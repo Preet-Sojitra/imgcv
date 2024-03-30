@@ -2,6 +2,23 @@
 
 
 
+## v0.4.0 (2024-03-30)
+
+### Documentation
+
+* docs: upadte README ([`eea0c32`](https://github.com/Preet-Sojitra/imgcv/commit/eea0c32819679a3ac723410eea870bbac83909b9))
+
+### Feature
+
+* feat(quantization): add module to reduce gray levels in image ([`05d0086`](https://github.com/Preet-Sojitra/imgcv/commit/05d008600f6d6147d6f0936af4d9e943d4dd3941))
+
+* feat(quantization): add binary thresholding ([`538061b`](https://github.com/Preet-Sojitra/imgcv/commit/538061b729acf5daf4501bb6978f4e1acc06819b))
+
+* feat(connectivity): add connected component analysis ([`e415952`](https://github.com/Preet-Sojitra/imgcv/commit/e415952d20cece7baacb48436be9a91a22c6ce21))
+
+* feat(transformations): add gamma correction ([`bf6acaa`](https://github.com/Preet-Sojitra/imgcv/commit/bf6acaabedf6628915ac55cb294805e363c7cd18))
+
+
 ## v0.3.1 (2024-03-30)
 
 ### Documentation
