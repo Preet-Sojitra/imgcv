@@ -2,6 +2,13 @@
 
 
 
+## v0.3.0 (2024-03-30)
+
+### Feature
+
+* feat: add ci-cd workflow ([`7bafbc4`](https://github.com/Preet-Sojitra/imgcv/commit/7bafbc45096fe2e918e155957530f0b6d2f6696d))
+
+
 ## v0.2.0 (2024-03-30)
 
 ### Build
