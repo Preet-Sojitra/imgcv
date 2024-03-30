@@ -1,0 +1,72 @@
+name: ci-cd
+
+on: [push, pull_request]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    # define job steps
+    steps:
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Check-out Repository
+        uses: actions/checkout@v2
+
+      - name: Install poetry
+        run: |
+          pip install poetry
+          poetry --version
+
+      - name: Install package
+        run: poetry install
+
+      - name: Build documentation
+        run: poetry run make html --directory docs/
+
+  cd:
+    permissions:
+      id-token: write
+      contents: write
+    # only runs if the "ci" job is successful
+    needs: ci
+
+    # only runs if new work is pushed to the main branch
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    # setups os
+    runs-on: ubuntu-latest
+
+    # define job steps
+    steps:
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Check-out Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Use Python Semantic Release to prepare a new release
+        id: release
+        uses: python-semantic-release/python-semantic-release@v8.3.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        if: steps.release.outputs.released == 'true'
+        with:
+          user: __token__
+          password: ${{ secrets.PYPI_PASSWORD }}
+
+      - name: Publish package distributions to Github Releases
+        uses: python-semantic-release/upload-to-gh-release@main
+        if: steps.release.outputs.released == 'true'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
