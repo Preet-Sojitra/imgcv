@@ -2,6 +2,21 @@
 
 
 
+## v0.6.0 (2024-05-04)
+
+### Documentation
+
+* docs: add example for histogram macthing ([`f73d1c3`](https://github.com/Preet-Sojitra/imgcv/commit/f73d1c332261a0b2c204b067aa11437d46b72a1c))
+
+* docs: add example of equalization for color images ([`7f20309`](https://github.com/Preet-Sojitra/imgcv/commit/7f20309c00f632883bbe34e6b6dc39d885bdc730))
+
+### Feature
+
+* feat(histogram): add histogram matching ([`6317180`](https://github.com/Preet-Sojitra/imgcv/commit/631718004e6f97b5a74f95cc75abedfc7b34e489))
+
+* feat(histogram): add equalization for color images ([`a0403f5`](https://github.com/Preet-Sojitra/imgcv/commit/a0403f55c7c747c0333292a2974e0e07078bfb4f))
+
+
 ## v0.5.0 (2024-05-04)
 
 ### Documentation
