@@ -2,6 +2,21 @@
 
 
 
+## v0.5.0 (2024-05-04)
+
+### Documentation
+
+* docs: add equalization example ([`4b3ac7a`](https://github.com/Preet-Sojitra/imgcv/commit/4b3ac7ab7af8dc9d144b7c53a2ddc03d82e6536e))
+
+### Feature
+
+* feat(histogram): add module of histogram equalization ([`3f7fa0c`](https://github.com/Preet-Sojitra/imgcv/commit/3f7fa0c7e63113eff6fc29af7c88345ec4fa810c))
+
+### Fix
+
+* fix(histogram): change cdf to calculate_cdf ([`98473e1`](https://github.com/Preet-Sojitra/imgcv/commit/98473e15596507240b537cf3b0115dd7a8e05e15))
+
+
 ## v0.4.0 (2024-03-30)
 
 ### Documentation
