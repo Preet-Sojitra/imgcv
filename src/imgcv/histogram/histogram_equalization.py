@@ -19,7 +19,7 @@ def histogram_equalization(img):
 
     pixel_freqs = calculate_histogram(img)
     pdf = calculate_pdf(img, pixel_freqs)
-    cdf = cdf(img, pdf)
+    cdf = calculate_cdf(img, pdf)
 
     equi_hist = {}
 
@@ -90,7 +90,7 @@ def calculate_pdf(img, pixel_freqs):
     return pdf
 
 
-def cdf(img, pdf):
+def calculate_cdf(img, pdf):
     """Calculates the cumulative density function of the image
 
     Note: This function currently only works for grayscale images.
