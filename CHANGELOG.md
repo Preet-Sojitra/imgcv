@@ -2,6 +2,28 @@
 
 
 
+## v0.7.0 (2024-06-02)
+
+### Chore
+
+* chore: remove some unused images from docs ([`e4a3321`](https://github.com/Preet-Sojitra/imgcv/commit/e4a33213bc390809cdb6b049db663bd99cf279cf))
+
+### Documentation
+
+* docs: add example for filters ([`380f4c7`](https://github.com/Preet-Sojitra/imgcv/commit/380f4c7b4a27f8dc1581922d2cfb7c512ae58338))
+
+### Feature
+
+* feat(filters): add linear and non-linear filters
+
+- Add Mean/Average/Box filter
+- Add Min, Max and Median filter ([`6d46add`](https://github.com/Preet-Sojitra/imgcv/commit/6d46add230e9ddd1909554a601c6d0811fe55134))
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Preet-Sojitra/imgcv ([`06d28e4`](https://github.com/Preet-Sojitra/imgcv/commit/06d28e433163ad78153b314ca199d39b522da32b))
+
+
 ## v0.6.0 (2024-05-04)
 
 ### Documentation
