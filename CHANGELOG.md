@@ -2,6 +2,23 @@
 
 
 
+## v0.9.0 (2024-06-05)
+
+### Documentation
+
+* docs: add example for fourier transform ([`e0e7b2b`](https://github.com/Preet-Sojitra/imgcv/commit/e0e7b2bc065a133d8c54f19c342e4e9e0b56fdea))
+
+### Feature
+
+* feat(frequency-domain): add module for calculating fourier transform
+
+- Moudle for calculating fourier transform and inverse fourier transform ([`188be75`](https://github.com/Preet-Sojitra/imgcv/commit/188be751c3a4ed6865b6ad83beb7792cc8a95088))
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Preet-Sojitra/imgcv ([`7c8ed97`](https://github.com/Preet-Sojitra/imgcv/commit/7c8ed9753d403345786df2b517d17c23bd4062ba))
+
+
 ## v0.8.0 (2024-06-04)
 
 ### Documentation
