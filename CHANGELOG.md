@@ -2,6 +2,23 @@
 
 
 
+## v0.8.0 (2024-06-04)
+
+### Documentation
+
+* docs: add example for using laplacian, sobel and robert filter
+
+- Also add images for the example ([`9566a11`](https://github.com/Preet-Sojitra/imgcv/commit/9566a11773d792fd2abe2aae30ab534128040be6))
+
+### Feature
+
+* feat(filters): add more linear filters
+
+- Add laplacian, sobel, and robert cross filters
+
+- Add a utility function to apply padding and convolution ([`6958032`](https://github.com/Preet-Sojitra/imgcv/commit/69580326a52edc7bb925e9531078c8cd043b51e6))
+
+
 ## v0.7.0 (2024-06-02)
 
 ### Chore
