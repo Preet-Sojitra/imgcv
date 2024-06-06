@@ -2,6 +2,24 @@
 
 
 
+## v0.10.0 (2024-06-06)
+
+### Documentation
+
+* docs: add example for using frequency domain filters ([`c4f017d`](https://github.com/Preet-Sojitra/imgcv/commit/c4f017d50b4a88378fb7f6d1287de4bfc74824af))
+
+### Feature
+
+* feat(fourier): add frequency domain filters
+
+- Add Low pass filter for image smoothing in frequency domain
+- Add High pass filter for image sharpening in frequency domain ([`bb69f75`](https://github.com/Preet-Sojitra/imgcv/commit/bb69f75d115432091d72287bbb75d0be6a7231f2))
+
+### Unknown
+
+* Merge branch &#39;main&#39; of github.com:Preet-Sojitra/imgcv ([`0233bde`](https://github.com/Preet-Sojitra/imgcv/commit/0233bde48427994eef4b4171516abd8c54fce8fc))
+
+
 ## v0.9.0 (2024-06-05)
 
 ### Documentation
